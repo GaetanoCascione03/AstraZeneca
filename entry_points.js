@@ -10,8 +10,10 @@ const fs = require('fs');
 */
 
 const obj = {
-	primo: path.join(path.resolve(__dirname, 'src/js'), 'ciao.js'),
-	secondo: path.join(path.resolve(__dirname, 'src/js'), 'ciao2.js'),
+	homepage: path.join(path.resolve(__dirname, 'src/js'), 'homepage.js'),
+	chisiamo: path.join(path.resolve(__dirname, 'src/js'), 'chisiamo.js'),
+	prenotaunvaccino: path.join(path.resolve(__dirname, 'src/js'), 'prenotaunvaccino.js'),
+	contatti: path.join(path.resolve(__dirname, 'src/js'), 'contatti.js'),
 
 }
 
